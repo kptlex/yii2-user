@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1619687934">
+  <project timestamp="1619687934">
+    <file name="/var/www/demo.local/http/packages/security/src/Auth/Handler/AuthenticationFailureHandler.php">
+      <class name="Lex\UserAuth\Handler\AuthenticationFailureHandler" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="20" type="stmt" count="6"/>
+      <line num="21" type="stmt" count="6"/>
+      <line num="23" type="method" name="handle" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="27" type="stmt" count="6"/>
+      <metrics loc="26" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/Auth/Handler/AuthenticationSuccessHandler.php">
+      <class name="Lex\UserAuth\Handler\AuthenticationSuccessHandler" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="18" type="stmt" count="6"/>
+      <line num="19" type="stmt" count="6"/>
+      <line num="21" type="method" name="handle" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="23" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="6"/>
+      <metrics loc="24" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/Auth/Method/AuthenticationMethodInterface.php">
+      <line num="38" type="stmt" count="6"/>
+      <metrics loc="37" ncloc="19" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/Auth/Middleware/AuthenticationMiddleware.php">
+      <class name="Lex\UserAuth\Middleware\AuthenticationMiddleware" namespace="global">
+        <metrics complexity="8" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="19" coveredelements="19"/>
+      </class>
+      <line num="24" type="method" name="__construct" visibility="public" complexity="3" crap="3" count="6"/>
+      <line num="31" type="stmt" count="6"/>
+      <line num="32" type="stmt" count="6"/>
+      <line num="33" type="stmt" count="6"/>
+      <line num="34" type="stmt" count="6"/>
+      <line num="35" type="stmt" count="6"/>
+      <line num="37" type="method" name="process" visibility="public" complexity="5" crap="5" count="5"/>
+      <line num="39" type="stmt" count="5"/>
+      <line num="40" type="stmt" count="5"/>
+      <line num="41" type="stmt" count="5"/>
+      <line num="42" type="stmt" count="3"/>
+      <line num="43" type="stmt" count="3"/>
+      <line num="45" type="stmt" count="3"/>
+      <line num="46" type="stmt" count="3"/>
+      <line num="49" type="stmt" count="2"/>
+      <line num="50" type="stmt" count="2"/>
+      <line num="52" type="stmt" count="2"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="3"/>
+      <metrics loc="58" ncloc="58" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="19" coveredelements="19"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/SecurityInterface.php">
+      <line num="18" type="stmt" count="7"/>
+      <metrics loc="17" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/User/GuestUser.php">
+      <class name="Lex\User\GuestUser" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="9" type="method" name="getId" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="11" type="stmt" count="2"/>
+      <line num="14" type="method" name="getAuthKey" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="18" type="stmt" count="3"/>
+      <metrics loc="17" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/User/UserInterface.php">
+      <line num="18" type="stmt" count="7"/>
+      <metrics loc="17" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/User/UserRepositoryInterface.php">
+      <line num="22" type="stmt" count="8"/>
+      <metrics loc="21" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/ViewInjection/UserViewInjection.php">
+      <class name="Lex\UserViewInjection\UserViewInjection" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="19" type="method" name="getContentParameters" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <metrics loc="24" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/Yii/SecurityService.php">
+      <class name="Lex\UserYii\SecurityService" namespace="global">
+        <metrics complexity="5" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="10" coveredelements="10"/>
+      </class>
+      <line num="14" type="method" name="login" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="16" type="stmt" count="3"/>
+      <line num="17" type="stmt" count="3"/>
+      <line num="20" type="method" name="isGuest" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="22" type="stmt" count="3"/>
+      <line num="25" type="method" name="getUser" visibility="public" complexity="2" crap="2" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <line num="29" type="stmt" count="4"/>
+      <line num="32" type="method" name="logout" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="7"/>
+      <metrics loc="35" ncloc="34" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="10" coveredelements="10"/>
+    </file>
+    <file name="/var/www/demo.local/http/packages/security/src/Yii/UserService.php">
+      <class name="Lex\UserYii\UserService" namespace="global">
+        <metrics complexity="10" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="21" coveredelements="21"/>
+      </class>
+      <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="18" type="stmt" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <line num="21" type="method" name="getIdentityRepositoryInterface" visibility="private" complexity="1" crap="1" count="2"/>
+      <line num="23" type="stmt" count="2"/>
+      <line num="26" type="method" name="findIdentity" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="33" type="method" name="findIdentityByAccessToken" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="40" type="method" name="getId" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="42" type="stmt" count="3"/>
+      <line num="45" type="method" name="getAuthKey" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="47" type="stmt" count="4"/>
+      <line num="50" type="method" name="validateAuthKey" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="55" type="method" name="getIdentity" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="57" type="stmt" count="4"/>
+      <line num="59" type="stmt" count="5"/>
+      <metrics loc="58" ncloc="58" classes="1" methods="8" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="21" coveredelements="21"/>
+    </file>
+    <metrics files="11" loc="334" ncloc="299" classes="7" methods="22" coveredmethods="22" conditionals="0" coveredconditionals="0" statements="47" coveredstatements="47" elements="69" coveredelements="69"/>
+  </project>
+</coverage>

@@ -1,0 +1,43 @@
+{
+  "name": "kptlex/yii2-user",
+  "description": "Services for working with users",
+  "keywords": [
+    "user",
+    "yii2",
+    "security"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandr Satyshev",
+      "email": "kptlex@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lex\\Yii2\\User\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lex\\Yii2\\User\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "kptlex/yii2-web": "^1.0",
+    "yiisoft/yii2": "^2.0",
+    "yiisoft/auth": "^3.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*",
+    "phpunit/phpunit": "^9.5"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
