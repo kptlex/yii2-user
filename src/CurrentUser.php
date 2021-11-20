@@ -12,7 +12,7 @@ use yii\rbac\ManagerInterface;
 
 final class CurrentUser implements SecurityInterface
 {
-    private ManagerInterface $manager;
+    private ?ManagerInterface $manager;
 
     public function __construct()
     {
@@ -47,6 +47,9 @@ final class CurrentUser implements SecurityInterface
 
     public function can(string $permission, array $params = []): bool
     {
+        if (!$this->manager) {
+            return false;
+        }
         return $this->manager->checkAccess($this->getUser()->getId(), $permission, $params);
     }
 }
